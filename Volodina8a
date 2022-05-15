@@ -1,0 +1,13 @@
+program 0
+  var n,m,p,s : real;
+begin
+  writeln('Подсчёт площади и периметра...');
+  write('Введите n');
+  readln(n);
+  write('Введите m');
+  readln(m); 
+  p:= (n+m)*2
+  s:= n*m
+  writeln('периметр равен' p:7:4);
+  writeln('площадь равна' s:7:4);
+end.
